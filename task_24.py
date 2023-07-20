@@ -1,4 +1,4 @@
-#заполняем каталог товаров из 3 позицй
+#заполняем каталог товаров из 3 позиций
 #
 #ввод:  Введите наименование товара хлеб
 #       Введите количество товара 2
@@ -30,3 +30,16 @@ for i in enumerate(range(1,4)):
     break
 for k in catalog:
         print(k, catalog[k], sep = ":")
+
+
+#cловари и оператор in
+#
+#catalog = {}
+#
+#for _ in range(3):
+#    name = input('Введите наименование: ')
+#    quant = int(input('Введите количество: '))
+#    catalog[name] = catalog.get(name, 0) + quant
+#
+#print(catalog)
+
