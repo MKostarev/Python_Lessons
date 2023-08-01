@@ -6,6 +6,7 @@ for i in range(3):
     if n in catalog:
         catalog[n] = catalog[n] + x
     else:
+        
         catalog[n] = x
 for k, v in catalog.items():
     s = s + (k + ':' + str(v)) + '\n'
