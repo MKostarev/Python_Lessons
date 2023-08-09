@@ -8,6 +8,7 @@
 import datetime
 
 
+
 def choose_plural(num, list_end):
     result = ''
     if num % 100 in range(5, 21):
