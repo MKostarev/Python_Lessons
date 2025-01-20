@@ -1,8 +1,9 @@
-def stray(arr):
-    pass
+def square_digits(num):
+  result = []
+  while num > 0:
+    result.append((num % 10)**2)
 
-max_value = max(numbers)
+    num //= 10
 
-
-stray([1, 1, 2]) #==> 2
-stray([17, 17, 3, 17, 17, 17, 17]) # ==> 3
+  result.reverse()
+  print(result)
