@@ -11,4 +11,5 @@ def square_digits(num):
         return (number)
 
 
-square_digits(0)
+
+square_digits(123)
